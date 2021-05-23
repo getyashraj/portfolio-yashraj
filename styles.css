@@ -137,3 +137,37 @@ html {
   width: 100%;
   max-width: 100%;
 }
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .intro_text {
+    max-width: 50%;
+    font-size: 32px;
+    overflow-wrap: break-word;
+  }
+  .nav_item {
+    padding: 20px 10px;
+  }
+  .skill {
+    flex-basis: 100%;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 800px) {
+  .intro_text {
+    max-width: 50%;
+    font-size: 32px;
+    overflow-wrap: break-word;
+  }
+  .nav_item {
+    padding: 20px 10px;
+  }
+  .skill {
+    flex-basis: 50%;
+  }
+}
+@media only screen and (min-width: 800px) and (max-width: 1200px) {
+  .intro_text {
+    max-width: 50%;
+    font-size: 48px;
+    overflow-wrap: break-word;
+  }
+}
